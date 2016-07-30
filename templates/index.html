@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+{% block body %}
+
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Marketing Icons Section -->
+        <div class="row">
+
+            
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    PGA Scoreboard
+                </h1>
+                Players:
+                {{players | safe}}
+                <hr>
+                Last refreshed:
+                <div id='refresh'> </div>
+                <hr>
+
+                Leaderboard:
+                {{leaderboard | safe}}
+
+                <hr>
+
+                Scoreboard:
+                {{scoreboard | safe}}
+
+            </div>
+
+            
+
+           
+
+            
+           
+           
+        </div>
+        <!-- /.row -->
+
+        
+{% endblock %}
