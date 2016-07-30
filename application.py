@@ -148,4 +148,4 @@ def get_data():
 
 if __name__ == '__main__':
 
-    application.run(host='52.38.76.210')
+    application.run(host='ec2-52-38-76-210.us-west-2.compute.amazonaws.com')
